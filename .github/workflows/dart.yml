@@ -8,6 +8,8 @@ on:
 
 jobs:
   build:
+    # depending, you can specify the machine to run on as macos-latest depending on what you want
+    # You can read more about that here : https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
     runs-on: ubuntu-latest
 
     steps:
